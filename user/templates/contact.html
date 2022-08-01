@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid" style="margin:auto">
+  <div class="row " style="margin:auto">
+    <div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://cdn-icons-png.flaticon.com/512/217/217887.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center"><p><a href="tel:+919596412370">9596412370</a></p></h5>
+      
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="http://assets.stickpng.com/images/584856bce0bb315b0f7675ad.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center"><a href = "mailto:contact@wecare.com?subject = Feedback&body = Message">contact@wecare.com</a></h5>
+      
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://cdn-icons-png.flaticon.com/512/355/355980.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center"><a href = "https://www.google.co.in/maps/place/Afk+Quarters,+Range+Hills,+Pune,+Maharashtra+411020/@18.5583393,73.8372364,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!2sPune,+Maharashtra!3b1!8m2!3d18.5204303!4d73.8567437!3m4!1s0x3bc2bf58dc387f43:0xabd984fc85cc2572!8m2!3d18.5581431!4d73.8385982">Find US</a></h5>
+      
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://cdn-icons-png.flaticon.com/512/1275/1275302.png" style=" width: 212px;height: auto;margin :auto" class="card-img-top " alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">No: 103, 9th cross, 
+        Atlantacity, Porwal road, 
+        Lohegaon,Pune, PIN: 411047 
+        Pune, INDIA </h5>
+     
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<style>
+    .p {
+        text-align : center;
+        
+        color:blue;
+        font-size: 100%;
+        
+    }   
+</style>
+<style>
+    
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px  ;
+      border-radius: 2px;
+      box-sizing: border-box;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color:grey;
+      color: black;
+      padding: 12px 12px;
+      border:insert ;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color:dark grey;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: lightgrey;
+      padding: 30px;
+    }
+    </style>
+    <br>
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your emailaddress..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+
+
+
+ {% endblock %}
